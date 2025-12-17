@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+
+    color: #4B2E1E;
+    font-family: "Roboto", sans-serif;
+
+
+
+}
+
+
+
+.createFlex {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+}
+
+.createFlex2 {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.firstButton {
+
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+.createButton {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-solid.fa-magnifying-glass {
+    font-size: 1.2rem;
+}
+
+.createImage {
+
+    height: 20rem;
+    width: 30rem;
+    padding: 1rem 7rem;
+    object-fit: cover;
+    margin-top: 2rem;
+
+
+
+}
+
+
+.createImflex {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.createPara {
+
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.createTittle {
+
+    text-align: center;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%)
+}
+
+.btn-grad {
+    margin-top: 0.5rem;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.orderImage {
+
+    height: 300px;
+    width: 300px;
+
+    object-fit: cover;
+    padding: 1rem 7rem;
+
+}
+
+.orderPage {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+
+    color: #4B2E1E;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.orderPage {
+
+    margin-top: 12rem;
+}
+
+.orgerpaged {
+
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+.orderImage {
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.orderPaging {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 12rem;
+
+}
+
+.createParagraph {
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+.orderPara {
+
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding: 1rem 10rem;
+
+}
+
+.createpara1 {
+    background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%)
+}
+
+.createpara1 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.createpara1 {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.createAbout {
+
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 10px;
+
+}
+
+.createAboutpage h2 {
+
+    font-size: 3rem;
+    text-align: center;
+
+
+}
+
+.createany {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+
+    padding: 1rem 10rem;
+}
+
+
+
+
+.createImages {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.createImages button {
+
+    margin-top: 10px;
+}
+
+
+.createBt {
+    background-image: linear-gradient(to right, #200122 0%, #6f0000 51%, #200122 100%)
+}
+
+.createBt {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.createBt:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.contactPage {
+    background: #E0C9A6;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+.createaddress {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.coffeed {
+
+    height: 40px;
+    width: 40px;
+}
+
+.createShop {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.fa-solid.fa-bars {
+
+    display: none;
+
+    color: #4B2E1E;
+}
+
+@media screen and (max-width: 768px) {
+
+    .fa-solid.fa-bars {
+
+        display: block;
+
+    }
+
+    .createFlex2 {
+
+        display: none;
+    }
+
+    .createButton {
+        display: none;
+    }
+
+    .createFlex {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .coffeed {
+
+        display: flex;
+
+    }
+
+
+
+    .createImage {
+
+        height: 250px;
+        width: 350px;
+        object-fit: cover;
+    }
+
+    .createImflex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .createPara {
+
+        margin-top: 1rem;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+
+    .btn-grad {
+
+        margin-left: 130px;
+    }
+
+    .orgerpaged {
+        font-size: 1rem;
+
+        margin-left: 300px;
+
+    }
+
+    .orderPara {
+
+        text-align: center;
+        font-size: 1rem;
+        width: 50ch;
+
+    }
+
+
+    .createpara1 {
+
+        margin-right: 200px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 2560px) {
+
+    .createFlex {
+        padding: 1rem 12rem;
+    }
+
+
+    .createFlex2 {
+
+        gap: 10rem;
+        font-size: 2rem;
+        font-weight: 450;
+
+    }
+
+    .createImage {
+
+        height: 35rem;
+        width: 70rem;
+        padding: 1rem 12rem;
+        object-fit: cover;
+        margin-top: 2rem;
+
+
+
+    }
+
+    .firstButton {
+
+        border-radius: 0.5rem;
+        padding: 0.8rem;
+        width: 8rem;
+        font-size: 1.8rem;
+    }
+
+    .fa-solid.fa-magnifying-glass {
+        font-size: 1.8rem;
+    }
+
+    .createPara {
+
+        margin-top: 1rem;
+        margin-left: 50px;
+        line-height: 2.5rem;
+        font-size: 1.8rem;
+        width: 50ch;
+    }
+
+    .createTittle {
+
+        font-size: 2.488rem;
+
+    }
+
+
+    .btn-grad {
+        background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%)
+    }
+
+    .btn-grad {
+        margin-left: 300px;
+        margin-top: 1rem;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .btn-grad:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .orderPage {
+        margin: 10rem;
+    }
+
+    .orgerpaged {
+
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+
+
+    }
+
+    .orderImage {
+
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+
+    .orderPaging {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 12rem;
+
+    }
+
+    .createParagraph {
+
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .orderPara {
+
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        line-height: 3.5rem;
+        padding: 1rem 10rem;
+
+    }
+
+
+
+    .createpara1 {
+        background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%)
+    }
+
+    .createpara1 {
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        width: 300px;
+        margin-left: 1100px;
+    }
+
+    .createpara1 {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    .createAbout {
+
+        height: 700px;
+        width: 1200px;
+        object-fit: cover;
+        position: relative;
+        margin-left: 700px;
+        margin-top: 10px;
+
+    }
+
+    .createAboutpage h2 {
+
+        font-size: 3rem;
+        text-align: center;
+
+
+    }
+
+    .createany {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        line-height: 3.5rem;
+        padding: 1rem 10rem;
+    }
+
+
+
+
+
+}
