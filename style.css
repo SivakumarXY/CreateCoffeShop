@@ -355,11 +355,17 @@ a:hover {
 
 
 
-    .createImage {
+    .createImages {
 
         height: 250px;
         width: 350px;
         object-fit: cover;
+        margin-left: 40px;
+        display: flex;
+        margin-top: 150px;
+
+
+
     }
 
     .createImflex {
@@ -382,29 +388,61 @@ a:hover {
 
     .orgerpaged {
         font-size: 1rem;
-
-        margin-left: 300px;
-
+        margin-left: 20px;
     }
 
     .orderPara {
-
-        text-align: center;
         font-size: 1rem;
-        width: 50ch;
+        margin-top: 1rem;
 
+        line-height: 1.5rem;
+        padding: 0;
+        margin: 10px auto;
     }
-
 
     .createpara1 {
 
-        margin-right: 200px;
+        margin-left: 15px;
+
+        margin-top: 10px;
     }
 
+    .createany {
+        font-size: 1rem;
+        margin-top: 1rem;
+
+        line-height: 1.5rem;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .createAboutpage {
+
+        margin-top: 100px;
+    }
+
+    .createAbout {
+
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .createShop {
+
+        font-size: 0.5rem;
+        gap: 5px;
+    }
+
+    .createaddress {
+
+        font-size: 0.5rem;
 
 
+    }
 
-
+    .
 }
 
 @media screen and (min-width: 2560px) {
