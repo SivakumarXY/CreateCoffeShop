@@ -4,6 +4,9 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 body {
@@ -16,79 +19,139 @@ body {
 }
 
 
+/* TODO: conterheader */
 
-.createFlex {
+.conterheader {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1rem 7rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 50px;
+    background: white;
+
+
 }
 
-.createFlex2 {
+/* TODO: Coffeecup */
+
+.coffeeCup {
+
     display: flex;
-    list-style: none;
-    gap: 2rem;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 8px;
+    align-content: center;
+}
+
+.coffeeCup>img {
+
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+
+
+}
+
+.coffeeCup p {
+    margin-top: 20px;
+    line-height: 1;
     font-size: 1.3rem;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
+    font-weight: 600;
 }
 
-.firstButton {
+/* TODO: navigation Bar */
 
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    width: 5rem;
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    font-size: 1.3rem;
+    margin-top: 20px;
 }
+
+/* TODO: createButton */
 
 .createButton {
 
-
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
+
 }
 
 .fa-solid.fa-magnifying-glass {
-    font-size: 1.2rem;
+
+    font-size: 19px;
+    margin-top: 20px;
 }
 
-.createImage {
+.createButton>button {
 
-    height: 20rem;
-    width: 30rem;
-    padding: 1rem 7rem;
-    object-fit: cover;
-    margin-top: 2rem;
-
-
-
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
+.fa-solid.fa-bars {
 
-.createImflex {
+    display: none;
+}
+
+/* TODO: createMain */
+
+.createMain {
+
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-
-
-
+    margin-top: 120px;
 }
 
-.createPara {
+/* TODO:creatText */
 
-    margin-top: 1rem;
-    line-height: 1.5rem;
+.creatText {
+
+    width: 60ch;
 }
 
-.createTittle {
+.creatText h2 {
 
     text-align: center;
 }
 
+.creatText p {
+    margin-top: 5px;
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+
+
+
+/* TODO: maincontent */
+
+.createmainImage img {
+
+    height: 370px;
+    width: 370;
+
+    object-fit: cover;
+}
+
 .btn-grad {
-    background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%)
+    background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+
+
 }
 
 .btn-grad {
@@ -104,6 +167,12 @@ body {
     display: block;
 }
 
+.buttonContainer {
+
+    display: flex;
+    justify-content: center;
+}
+
 .btn-grad:hover {
 
     background-position: right center;
@@ -111,522 +180,244 @@ body {
     text-decoration: none;
 }
 
-.orderImage {
 
-    height: 300px;
-    width: 300px;
-
-    object-fit: cover;
-    padding: 1rem 7rem;
-
-}
-
-.orderPage {
+.createImaging {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
-}
-
-a {
-
-    color: #4B2E1E;
-    text-decoration: none;
-
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.orderPage {
-
-    margin-top: 12rem;
-}
-
-.orgerpaged {
-
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-
-
-}
-
-.orderImage {
-
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-}
-
-.orderPaging {
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 12rem;
-
-}
-
-.createParagraph {
-
+    gap: 50px;
     margin-top: 30px;
-    text-align: center;
 }
 
-.orderPara {
-
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    line-height: 2rem;
-    padding: 1rem 10rem;
-
-}
-
-.createpara1 {
-    background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%)
-}
-
-.createpara1 {
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
-    width: 300px;
-    margin-left: 400px;
-}
-
-.createpara1 {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
-
-}
-
-.createAbout {
-
-    height: 300px;
-    width: 500px;
-    object-fit: cover;
-    position: relative;
-    margin-left: 400px;
-    margin-top: 10px;
-
-}
-
-.createAboutpage h2 {
-
-    font-size: 3rem;
-    text-align: center;
-
-
-}
-
-.createany {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    line-height: 2rem;
-
-    padding: 1rem 10rem;
-}
-
-
-
-
-.createImages {
+.createOrder {
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.valuePara {
+
+    margin-top: 5px;
+}
+
+.containImage {
+
+    margin-top: 200px;
+}
+
+.createTitle {
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4B2E1E;
+}
+
+a:hover {
+
+    text-decoration: underline;
+    color: #4B2E1E;
+
+}
+
+/* TODO: creatAboutcontainer */
+
+.creatAboutcontainer {
+    margin-top: 150px;
+}
+
+.createAbout h2 {
+
+    text-align: center;
+
+
+
+}
+
+.createAbout div>img {
+
+
+    height: 300px;
+    width: 700px;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.middleImage {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
     align-items: center;
 
+
 }
 
-.createImages button {
+.middleImage p {
 
-    margin-top: 10px;
-}
-
-
-.createBt {
-    background-image: linear-gradient(to right, #200122 0%, #6f0000 51%, #200122 100%)
-}
-
-.createBt {
-    margin: 10px;
-    padding: 15px 45px;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    width: 70ch;
     text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
-}
-
-.createBt:hover {
-    background-position: right center;
-    /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
 }
 
 
 .contactPage {
-    background: #E0C9A6;
+
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     align-items: center;
-
 }
 
-.createaddress {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    line-height: 1.5;
-    margin-top: 10px;
-}
 
 .coffeed {
 
     height: 40px;
     width: 40px;
+    object-fit: cover;
 }
 
-.createShop {
+.createdfooter {
+
+    display: flex;
+    gap: 20x;
+    align-items: center;
+
+}
+
+.createdfooter h2 {
+
+    margin-top: 20px;
+}
+
+.createShop p {
+
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+
+
+.contactPage {
+    background: #E0C9A6;
+    margin-top: 50px;
+
+
+}
+
+.createdfooter {
 
     display: flex;
     align-items: center;
-    gap: 10px;
-
+    justify-content: center;
 }
 
-.fa-solid.fa-bars {
+.createaddress p {
 
-    display: none;
-
-    color: #4B2E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 768px) {
 
-    .fa-solid.fa-bars {
-
-        display: block;
-
+    .conterheader {
+        gap: 100px;
     }
 
-    .createFlex2 {
+    ul {
 
         display: none;
     }
 
     .createButton {
+
         display: none;
     }
 
-    .createFlex {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 50px;
-    }
-
-    .coffeed {
-
-        display: flex;
+    .fa-solid.fa-bars {
+        display: block;
+        font-size: 20px;
+        margin-top: 20px;
 
     }
 
+    .creatText {
+
+        width: 40ch;
+    }
+
+    .createmainImage {
+
+        order: -1;
+    }
+
+    .createImaging {
 
 
-    .createImages {
+
+        flex-direction: column;
+
+
+    }
+
+    .containImage {
+
+        margin-top: 50px;
+    }
+
+    .createAbout div>img {
+
 
         height: 250px;
-        width: 350px;
+        width: 400px;
+        margin-top: 30px;
         object-fit: cover;
-        margin-left: 40px;
-        display: flex;
-        margin-top: 150px;
-
-
+        border-radius: 10px;
 
     }
 
-    .createImflex {
+
+
+    .middleImage p {
+
+
+        width: 40ch;
+    }
+
+    .contactPage {
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
-    .createPara {
-
-        margin-top: 1rem;
-        line-height: 1.3rem;
-        text-align: center;
-    }
-
-    .btn-grad {
-
-        margin-left: 130px;
-    }
-
-    .orgerpaged {
-        font-size: 1rem;
-        margin-left: 20px;
-    }
-
-    .orderPara {
-        font-size: 1rem;
-        margin-top: 1rem;
-
-        line-height: 1.5rem;
-        padding: 0;
-        margin: 10px auto;
-    }
-
-    .createpara1 {
-
-        margin-left: 15px;
-
-        margin-top: 10px;
-    }
-
-    .createany {
-        font-size: 1rem;
-        margin-top: 1rem;
-
-        line-height: 1.5rem;
-        padding: 0;
-        margin: 10px auto;
-    }
-
-    .createAboutpage {
-
-        margin-top: 100px;
-    }
-
-    .createAbout {
-
-        margin-left: 5px;
-        display: flex;
         justify-content: center;
-
-    }
-
-    .createShop {
-
-        font-size: 0.5rem;
-        gap: 5px;
+        align-items: center;
     }
 
     .createaddress {
 
-        font-size: 0.5rem;
-
-
+        margin: 20px;
     }
 
-    .
-}
-
-@media screen and (min-width: 2560px) {
-
-    .createFlex {
-        padding: 1rem 12rem;
-    }
+    .createaddress p {
 
 
-    .createFlex2 {
-
-        gap: 10rem;
-        font-size: 2rem;
-        font-weight: 450;
-
-    }
-
-    .createImage {
-
-        height: 35rem;
-        width: 70rem;
-        padding: 1rem 12rem;
-        object-fit: cover;
-        margin-top: 2rem;
-
-
-
-    }
-
-    .firstButton {
-
-        border-radius: 0.5rem;
-        padding: 0.8rem;
-        width: 8rem;
-        font-size: 1.8rem;
-    }
-
-    .fa-solid.fa-magnifying-glass {
-        font-size: 1.8rem;
-    }
-
-    .createPara {
-
-        margin-top: 1rem;
-        margin-left: 50px;
-        line-height: 2.5rem;
-        font-size: 1.8rem;
-        width: 50ch;
-    }
-
-    .createTittle {
-
-        font-size: 2.488rem;
-
-    }
-
-
-    .btn-grad {
-        background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%)
-    }
-
-    .btn-grad {
-        margin-left: 300px;
-        margin-top: 1rem;
-        padding: 15px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        display: block;
-    }
-
-    .btn-grad:hover {
-        background-position: right center;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .orderPage {
-        margin: 10rem;
-    }
-
-    .orgerpaged {
-
-        font-size: 3rem;
-        text-align: center;
-        margin-top: 2rem;
-
-
-    }
-
-    .orderImage {
-
-        height: 400px;
-        width: 400px;
-        object-fit: cover;
-    }
-
-    .orderPaging {
-
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 12rem;
-
-    }
-
-    .createParagraph {
-
-        margin-top: 30px;
-        text-align: center;
-    }
-
-    .orderPara {
-
-        text-align: center;
-        margin-top: 1rem;
-        font-size: 2rem;
-        line-height: 3.5rem;
-        padding: 1rem 10rem;
-
-    }
-
-
-
-    .createpara1 {
-        background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%)
-    }
-
-    .createpara1 {
-        margin: 10px;
-        padding: 15px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        display: block;
-        width: 300px;
-        margin-left: 1100px;
-    }
-
-    .createpara1 {
-        background-position: right center;
-        color: #fff;
-        text-decoration: none;
-
-    }
-
-    .createAbout {
-
-        height: 700px;
-        width: 1200px;
-        object-fit: cover;
-        position: relative;
-        margin-left: 700px;
+        margin-left: 70px;
         margin-top: 10px;
-
     }
-
-    .createAboutpage h2 {
-
-        font-size: 3rem;
-        text-align: center;
-
-
-    }
-
-    .createany {
-        text-align: center;
-        margin-top: 1rem;
-        font-size: 2rem;
-        line-height: 3.5rem;
-        padding: 1rem 10rem;
-    }
-
-
-
-
 
 }

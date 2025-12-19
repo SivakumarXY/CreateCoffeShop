@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop</title>
 
-
     <!-- createLinked -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,28 +21,33 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./style.css">
-
-    <link rel="stylesheet" href="./components/about.html">
 </head>
 
 <body>
 
+
+
+
     <header>
-        <div class="createFlex">
 
-            <h1> <img src="./Images/coffee-cup.png" alt="coffee" class="coffeed"> Coffee</h1>
+        <div class="conterheader">
 
+            <!-- TODO:Coffecup Image -->
+            <div class="coffeeCup">
+                <img src="../Images/coffee-cup.png" alt="coffee-cup">
+                <p>Coffee</p>
+            </div>
 
+            <!-- TODO: navigation Bar -->
 
-
-            <ul class="createFlex2">
+            <ul>
                 <li>Home</li>
 
-                <a href="#orderPage">
+                <a href="#orderImage">
                     <li>Order</li>
                 </a>
 
-                <a href="#About page">
+                <a href="#creatAboutcontainers">
                     <li>About</li>
                 </a>
 
@@ -51,126 +55,135 @@
                     <li>Contact</li>
                 </a>
 
+
             </ul>
+
+            <!-- TODO: Search   -->
 
             <div class="createButton">
 
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <button class="firstButton">Signin</button>
+                <button>Signin</button>
             </div>
 
-            <!-- menuIcon -->
             <i class="fa-solid fa-bars"></i>
 
         </div>
+
     </header>
 
     <main>
 
-        <!-- TODO: createHero -->
-        <div class="createImflex">
-            <div>
-                <img src="./Images/river-fx-dlUOxkgrofg-unsplash.jpg" alt="images1" class="createImage">
+        <!-- TODO:createMain -->
+
+        <div class="createMain">
+
+            <div class="creatText">
+                <h2>Fresh Coffee, Every Cup</h2>
+
+                <p>We serve fresh and delicious coffee every day
+                    You can enjoy a variety of hot and cold coffee
+                    Our coffee is made using quality coffee beans,
+                    The shop is clean and comfortable for all customers
+                    Friendly staff are always ready to help you
+                    You can order coffee anytime, 24/7,
+                    Home delivery available for your convenience
+                    We aim to give the best taste and service.</p>
+
+                <div class="buttonContainer">
+                    <button class="btn-grad">Order Now</button>
+
+                </div>
+            </div>
+
+            <div class="createmainImage">
+
+                <img src="../Images/perfectcopy.png" alt="perfectcopy">
 
             </div>
 
-            <div>
-                <h2 class="createTittle">Benefits of Coffee !</h2>
-                <p class="createPara">
-                    Coffee is a popular drink around the world. It helps people feel awake and alert. Drinking coffee
-                    can improve focus and concentration. Coffee also has antioxidants that are good for health. In
-                    moderate amounts, it can boost energy and mood.
-                    Coffee can also help people feel fresh in the morning. It may improve physical performance during
-                    work or exercise. Many people enjoy coffee as part of their daily routine.
-                </p>
-                <button class="btn-grad">Order Now</button>
-            </div>
+
+
         </div>
 
         <!-- TODO: Order Page -->
-        <div id="orderPage">
 
-            <h2 class="orgerpaged">Order Page</h2>
+        <div class="containImage" id="orderImage">
 
+            <div class="createTitle">
+                <h2>Order Your Coffee</h2>
 
-            <p class="orderPara">
-                Everyone can easily order coffee from our coffee shop.
-                We use fresh coffee beans, hot milk, sugar, cocoa powder, cream, caramel syrup, and vanilla essence.
-                You can choose strong coffee, mild coffee, cappuccino, latte, or black coffee.
-                The shop is clean, smells good, and the service is friendly.
-                Order your coffee and it will come to your home.
-            </p>
-
-            <p class="createpara1">Easy way to Order</p>
-            <div class="orderPaging">
-
-
-
-                <div class="createImages">
-                    <img src="./Images/takeaway-cup-with-coffee-coffee-beans.jpg" alt="order" class="orderImage">
-
-                    <p>₹ 240</p>
-                    <button class="createBt">BUY Now</button>
-
-                </div>
-
-                <div class="createImages">
-
-                    <img src="./Images/ante-samarzija-lsmu0rUhUOk-unsplash.jpg" alt="orderImaged" class="orderImage">
-
-                    <p>₹ 440</p>
-                    <button class="createBt">BUY Now</button>
-                </div>
-
-                <div class="createImages">
-                    <img src="./Images/coffee.avif" alt="order" class="orderImage">
-
-                    <p>₹ 140</p>
-                    <button class="createBt">BUY Now</button>
-                </div>
-
-                <div class="createImages">
-
-
-                    <img src="./Images/coffeed.avif" alt="orderImaged" class="orderImage">
-                    <p>₹ 340</p>
-                    <button class="createBt">BUY Now</button>
-                </div>
             </div>
-        </div>
+            <div class="createImaging">
+                <div>
 
-        <!-- TODO: About -->
+                    <img src="../Images/ante-samarzija-lsmu0rUhUOk-unsplash.jpg" alt="anteImage"
+                        style="height: 280px; width: 300px; object-fit: cover; border-radius: 10px;">
+                    <div class="createOrder">
+                        <p>Cappuccino</p>
+                        <p class="valuePara">₹340</p>
+                    </div>
 
-        <div id="About page">
+                    <div class="buttonContainer">
+                        <button class="btn-grad">Buy Now</button>
 
-            <div class="createAboutpage">
-                <h2>About</h2>
-
-                <p class="createany">My coffee shop has been running successfully for the past five years and it is
-                    known as a special coffee
-                    shop in our area. We prepare coffee using fresh coffee beans and high-quality ingredients to give
-                    the
-                    best taste to our customers. The shop is always clean, neat, and well maintained, creating a
-                    pleasant
-                    and comfortable environment. We serve different types of coffee like strong coffee, mild coffee,
-                    cappuccino, latte, and black coffee. Our staff are friendly and provide good service with care and
-                    respect. Many customers visit our shop every day because they trust our quality and hygiene. We
-                    focus on
-                    customer satisfaction and make every cup with passion and dedication. Our coffee shop has earned a
-                    good
-                    name and continues to grow with customer support.</p>
+                    </div>
+                </div>
 
                 <div>
-                    <img src="./Images/mike-kenneally-TD4DBagg2wE-unsplash.jpg" alt="imageCreate" class="createAbout">
+                    <img src="../Images/coffee.avif" alt="coffe"
+                        style="height: 280px; width: 300px; object-fit: cover; border-radius: 10px;">
+                    <div class="createOrder">
+                        <p>Latte</p>
+                        <p class="valuePara">₹240</p>
+                    </div>
+
+                    <div class="buttonContainer">
+                        <button class="btn-grad">Order Now</button>
+
+                    </div>
+                </div>
+
+                <div>
+                    <img src="../Images/takeaway-cup-with-coffee-coffee-beans.jpg" alt="coffe"
+                        style="height: 280px; width: 300px; object-fit: cover; border-radius: 10px;">
+                    <div class="createOrder">
+                        <p>Mocha</p>
+                        <p class="valuePara">₹440</p>
+                    </div>
+
+                    <div class="buttonContainer">
+                        <button class="btn-grad">Buy Now</button>
+
+                    </div>
                 </div>
             </div>
-
-
-
         </div>
 
+        <!-- TODO: About Page -->
+
+        <div class="creatAboutcontainer" id="creatAboutcontainers">
+            <div class="createAbout">
+
+                <h2>About</h2>
+
+                <div class="middleImage">
+
+                    <p>Our coffee shop gives 24/7 free delivery for all customers.
+                        We are running this coffee shop successfully for the last 5 years.
+                        Many customers like our coffee taste and fast service.
+                        We always prepare fresh and hot coffee.
+                        If the coffee is not delivered at the mentioned time,
+                        we will give the coffee free of cost.
+                        Customer satisfaction is our first priority.
+                        Visit us or order anytime and enjoy our coffee</p>
+
+                    <img src="../Images/creativeImage.avif" alt="creative">
 
 
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -179,8 +192,20 @@
         <div id="contactPage">
             <div class="contactPage">
                 <div class="createShop">
-                    <h2>Coffee Shop</h2>
-                    <img src="./Images/coffee-cup.png" alt="coffee" class="coffeed">
+
+                    <div class="createdfooter">
+                        <img src="../Images/coffee-cup.png" alt="coffee" class="coffeed">
+                        <h2>Coffee Shop</h2>
+
+                    </div>
+
+                    <p>Contact: +91 8667732824</p>
+                    <p>Mail: developersivakumar1@gmail.com</p>
+                    <p>This landing page is created by Sivakumar.</p>
+
+                    <a href="https://github.com/SivakumarXY">
+                        <p>Github</p>
+                    </a>
                 </div>
 
                 <div class="createaddress">
@@ -200,6 +225,7 @@
             </div>
         </div>
     </footer>
+
 
 
 </body>
